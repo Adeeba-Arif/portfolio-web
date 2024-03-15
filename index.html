@@ -5,24 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home </title>
     <style>
-        table,tr,td,th{
-            border: 1px solid black;
-            border-collapse: collapse;
+        nav{
+            padding: 10px 10px 10px 10px;
+            background-color: lightcyan;
         }
-    </style>
+        #A1,#A2{
+            text-align: center;
+        }
+        
+        .table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        nav a {
+            color: black;
+            text-decoration: none; 
+            padding: 10px;
+        }
+        footer{
+            text-align: center;
+            background-color: lightcyan;
+            padding: 10px 10px 10px 10px ;
+        }
+     </style>
+    
 </head>
 <body>
-    <br><img src="./images/minee.jpg" alt="personal" width="200"><br>
-    <a href="./contact/contact.html">contact page</a>
-    <a href="./skill/skill.html">skill page</a>
-    <a href="./project/project.html">project page</a>
-    <h1>MY PERSONAL PORTFOLIO</h1>
-    <h2>INTRODUCTION</h2>
-    <p>My name is ADEEBA ARIF.I'm 21 years old.I'm doing bachelor in computer science 4th semester from city university.I belongs from Lahore but currently living in Peshawar.Am also a student in SMIT for the web and mobile application course.</p>
-     <a href="https://www.linkedin.com/in/adeeba-arif-4b7134284">My linkedin profile link</a><br>
-    <a href="https://github.com/adeebachurail">My github account link</a>
+    <header>
+        <nav>
+            <a href="./index.html" style="padding: 2%; "><img src="./images/home.gif" alt="home" width="30"></a>
+        <a href="./contact/contact.html" style="padding: 2%; "><img src="./images/contact.png" alt="contact" width="30"></a>
+        <a href="./skill/skill.html" style="padding: 2%;"><img src="./images/skills.png" alt="skills" width="30"></a>
+        <a href="./project/project.html" style="padding: 2%;"><img src="./images/projects.png" alt="project" width="30"></a>
+    </nav>
+</header>
 
-   <table>
+<div>
+    
+    <h2>MY PORTFOLIO</h2>
+<article id="A1">
+    <br><img src="./images/minee.jpg" alt="personal" width="300"><br>
+</article>
+    <article id="A2">
+    <p><b>This is ADEEBA ARIF  <br><br><audio src="./audio/Fri Mar 15 2024 (3).mp3" controls autoplay><b>name</b></audio></b></p>
+   
+    <a  href="https://github.com/Adeeba-Arif" target="#"><img src="./images/icons8-github-96.png" alt=""></a>
+</article>
+<br><br>
+</div>
+
+   <section >
+    <table class="table" border="2">
     <thead>
         <tr>
             <th colspan="5">BACHELOR DEGREE MARKS SHEET</th>
@@ -60,16 +93,16 @@
         </tr>
     </tfoot>
    </table>
-   <h2>For feedback fill the following form:</h2>
-   <form >
-        name: <input type="text" ><br>
-        status: <br><input type="radio" name="status">student <br>
-        <input type="radio" name="status">worker <br>
-        <input type="radio" name="status">non-worker <br>
-        age: <input type="number" name="age"><br><br>
-       <textarea name="comments" >Enter your feedback</textarea> <br><br>
-        email: <input type="email" name="email"> <br><br>
-         <input type="image" name="submit" src="./images/icons8-submit-64.png">
-   </form>
+</section>
+<aside>
+    
+   <br><br><br> <p><b>I've been studying in CUSIT peshawar since 2022</b></p> <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3306.280171574995!2d71.61658951097066!3d34.03668357305098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d34.0099072!2d71.51288319999999!4m5!1s0x38d93daccda395f3%3A0xc147b84fa6b207de!2scity%20university%20peshawar!3m2!1d34.036683599999996!2d71.6191698!5e0!3m2!1sen!2s!4v1710498597635!5m2!1sen!2s" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</aside>
+<br><br>
+<footer >
+    <p ><b>All Rights Reserved &copy; Portfolio By Adeeba Arif.</b></p>
+</footer>
+
 </body>
 </html>
