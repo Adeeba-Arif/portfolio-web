@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home </title>
+    <link rel="stylesheet" href="./style.css">
     <style>
-        nav{
+        /* nav{
             padding: 10px 10px 10px 10px;
             background-color: lightcyan;
         }
@@ -26,17 +27,17 @@
             text-align: center;
             background-color: lightcyan;
             padding: 10px 10px 10px 10px ;
-        }
+        } */
      </style>
     
 </head>
 <body>
     <header>
         <nav>
-            <a href="./index.html" style="padding: 2%; "><img src="./images/home.gif" alt="home" width="30"></a>
-        <a href="./contact/contact.html" style="padding: 2%; "><img src="./images/contact.png" alt="contact" width="30"></a>
-        <a href="./skill/skill.html" style="padding: 2%;"><img src="./images/skills.png" alt="skills" width="30"></a>
-        <a href="./project/project.html" style="padding: 2%;"><img src="./images/projects.png" alt="project" width="30"></a>
+            <a href="./index.html" style="padding: 2%; "><img src="./images/home.gif" alt="home" width="30"> home</a>
+        <a href="./contact/contact.html" style="padding: 2%; "><img src="./images/contact.png" alt="contact" width="30">contact</a>
+        <a href="./skill/skill.html" style="padding: 2%;"><img src="./images/skills.png" alt="skills" width="30">skills</a>
+        <a href="./project/project.html" style="padding: 2%;"><img src="./images/projects.png" alt="project" width="30"> projects</a>
     </nav>
 </header>
 
@@ -47,9 +48,8 @@
     <br><img src="./images/minee.jpg" alt="personal" width="300"><br>
 </article>
     <article id="A2">
-    <p><b>This is ADEEBA ARIF  <br><br><audio src="./audio/Fri Mar 15 2024 (3).mp3" controls autoplay><b>name</b></audio></b></p>
-   
-    <a  href="https://github.com/Adeeba-Arif" target="#"><img src="./images/icons8-github-96.png" alt=""></a>
+        <h2>This is <b>Adeeba Arif</b> <img id="speaker" src="./images/speaker.png" alt="Audio"></h2>
+   <a  href="https://github.com/Adeeba-Arif" target="#"><img src="./images/icons8-github-96.png" alt=""></a>
 </article>
 <br><br>
 </div>
@@ -103,6 +103,14 @@
 <footer >
     <p ><b>All Rights Reserved &copy; Portfolio By Adeeba Arif.</b></p>
 </footer>
+
+<script>
+    var audio = new Audio("./audio/audio.mp3");
+    function playAudio() {
+        audio.play();
+    }
+    document.getElementById("speaker").addEventListener("click", playAudio);
+</script>
 
 </body>
 </html>
