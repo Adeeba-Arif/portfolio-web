@@ -1,7 +1,7 @@
 
 nav{
        padding: 10px 10px 10px 10px;
-       background-color: lightcyan;
+       background-color: #E0FFFF;
    }
   
    nav a {
@@ -11,12 +11,12 @@ nav{
    }
    footer{
        text-align: center;
-       background-color: lightcyan;
+       background-color: #E0FFFF;
        padding: 10px 10px 10px 10px ;
    }
    nav{
     padding: 10px 10px 10px 10px;
-    background-color: lightcyan;
+    background-color:#E0FFFF;
 }
 #A1,#A2{
     text-align: center;
